@@ -29,7 +29,7 @@ public class ChooseSemester extends AppCompatActivity {
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String s = "";
+                String s = "1";
                 if(r1.isChecked())
                     s = "1";
                 else if(r2.isChecked())
